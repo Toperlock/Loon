@@ -1,0 +1,11 @@
+#!name=实时汇率
+#!desc=定时监控每日汇率（通知）
+#!author = Peng-YM
+#!openUrl = 
+#!homepage = 
+#!icon = https://raw.githubusercontent.com/chxm1023/Task/main/icon/hljk.png
+
+
+[Script]
+
+cron "0 8 * * *" script-path=https://github.com/Toperlock/Quantumult/raw/main/task/exchange.js, tag=汇率监控
